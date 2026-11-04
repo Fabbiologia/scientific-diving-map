@@ -1,0 +1,33 @@
+# Weekly refresh of dmac.json from www.dmac-diving.org. A commit here redeploys GitHub Pages,
+# and the map page reads dmac.json at load, so new DMAC guidance appears without a rebuild.
+# Run it by hand from the Actions tab (workflow_dispatch) to check sooner.
+name: DMAC feed
+
+on:
+  schedule:
+    - cron: '17 6 * * 1'   # Mondays at 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scrape dmac-diving.org
+        run: python3 feed/scrape_dmac.py dmac.json
+
+      - name: Commit the refreshed feed
+        run: |
+          git config user.name "dmac-feed"
+          git config user.email "dmac-feed@users.noreply.github.com"
+          git add dmac.json
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "DMAC feed: $(python3 feed/scrape_dmac.py --summary dmac.json)"
+          git push

@@ -20,6 +20,10 @@ The evidence was gathered from public sources in two rounds, with positions as a
 - Switch between **Graph** and **Mind map** in the header; **Briefing** opens the talking points and **Documents** opens the reader.
 - Link straight to an entry with its id after `#`, for example `#sdsc`, `#esdp`, `#romania` or `#uk-ots`; `#mindmap` and `#briefing` open those views.
 
+## Live feed from DMAC
+
+`dmac.json` lists every guidance note, position statement, article, news item, member and approved course published on [www.dmac-diving.org](https://www.dmac-diving.org), the Diving Medical Advisory Committee, with the date this feed first saw each item and a log of changes between runs. The workflow in `.github/workflows/dmac-feed.yml` re-runs `feed/scrape_dmac.py` every Monday and commits the result, which redeploys the page; the page reads `dmac.json` when it loads, so the DMAC card and the "Latest from DMAC" panel update without a rebuild. To refresh sooner, open the Actions tab and run "DMAC feed". The scraper reads six public pages, keeps titles exactly as the site prints them, and leaves the file untouched when the site cannot be read.
+
 ## Corrections
 
 Corrections and new sources are welcome through the repository's Issues tab. Please include the source link.

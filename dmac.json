@@ -1,0 +1,926 @@
+{
+ "source": {
+  "name": "Diving Medical Advisory Committee (DMAC)",
+  "url": "https://www.dmac-diving.org",
+  "pages": {
+   "home": "https://www.dmac-diving.org/",
+   "guidance": "https://www.dmac-diving.org/guidance/",
+   "about": "https://www.dmac-diving.org/about/",
+   "history": "https://www.dmac-diving.org/about/history.php",
+   "members": "https://www.dmac-diving.org/about/members/",
+   "courses": "https://www.dmac-diving.org/courses/"
+  }
+ },
+ "checked": "2026-11-04T09:02:06Z",
+ "page_updated": "July 2026",
+ "guidance": [
+  {
+   "id": "dmac-01",
+   "code": "DMAC 01",
+   "title": "Aide-mémoire for recording and transmission of medical data to shore",
+   "status": "current",
+   "rev": "2",
+   "date": "2025-07",
+   "date_text": "Jul 2025",
+   "url": "https://www.dmac-diving.org/guidance/DMAC01.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-02",
+   "code": "DMAC 02",
+   "title": "In-water diver monitoring",
+   "status": "withdrawn",
+   "rev": "",
+   "date": "",
+   "date_text": "",
+   "superseded_by": "",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-03",
+   "code": "DMAC 03",
+   "title": "Accidents with high-pressure water jets",
+   "status": "current",
+   "rev": "",
+   "date": "1981-01",
+   "date_text": "Jan 1981",
+   "url": "https://www.dmac-diving.org/guidance/DMAC03.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-04",
+   "code": "DMAC 04",
+   "title": "Oxygen content in open circuit bail-out bottles for heliox saturation diving",
+   "status": "current",
+   "rev": "2",
+   "date": "2016-05",
+   "date_text": "May 2016",
+   "url": "https://www.dmac-diving.org/guidance/DMAC04.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-05",
+   "code": "DMAC 05",
+   "title": "Recommendation on minimum level of O 2 in helium supplied offshore",
+   "status": "current",
+   "rev": "",
+   "date": "1981-01",
+   "date_text": "Jan 1981",
+   "url": "https://www.dmac-diving.org/guidance/DMAC05.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-06",
+   "code": "DMAC 06",
+   "title": "The effects of sonar transmission on commercial diving activities",
+   "status": "current",
+   "rev": "1",
+   "date": "2010-06",
+   "date_text": "Jun 2010",
+   "url": "https://www.dmac-diving.org/guidance/DMAC06.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-07",
+   "code": "DMAC 07",
+   "title": "Flying after diving: Recommendations",
+   "status": "current",
+   "rev": "2",
+   "date": "2017-11",
+   "date_text": "Nov 2017",
+   "url": "https://www.dmac-diving.org/guidance/DMAC07.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-08",
+   "code": "DMAC 08",
+   "title": "Thermal stress in relation to diving (Report of a workshop held in March 1981)",
+   "status": "current",
+   "rev": "",
+   "date": "1981-03",
+   "date_text": "Mar 1981",
+   "url": "https://www.dmac-diving.org/guidance/DMAC08.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-09",
+   "code": "DMAC 09",
+   "title": "Fitness to dive after neurological decompression sickness",
+   "status": "withdrawn",
+   "rev": "",
+   "date": "",
+   "date_text": "",
+   "superseded_by": "",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-10",
+   "code": "DMAC 10",
+   "title": "Medical standards for ADS pilots, submersible crew and passengers",
+   "status": "withdrawn",
+   "rev": "",
+   "date": "",
+   "date_text": "",
+   "superseded_by": "",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-11",
+   "code": "DMAC 11",
+   "title": "Provision of first aid and the training of divers, supervisors and members of dive teams in first aid",
+   "status": "current",
+   "rev": "1",
+   "date": "2001-11",
+   "date_text": "Nov 2001",
+   "url": "https://www.dmac-diving.org/guidance/DMAC11.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-12",
+   "code": "DMAC 12",
+   "title": "Safe diving distance from seismic surveying operations",
+   "status": "current",
+   "rev": "2.1",
+   "date": "2020-06",
+   "date_text": "Jun 2020",
+   "url": "https://www.dmac-diving.org/guidance/DMAC12.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-13",
+   "code": "DMAC 13",
+   "title": "Fitness to return to diving after decompression illness",
+   "status": "current",
+   "rev": "3",
+   "date": "2022-12",
+   "date_text": "Dec 2022",
+   "url": "https://www.dmac-diving.org/guidance/DMAC13.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-14",
+   "code": "DMAC 14",
+   "title": "Medical equipment to be held at the site of a diving operation",
+   "status": "withdrawn",
+   "rev": "",
+   "date": "",
+   "date_text": "",
+   "superseded_by": "DMAC 15",
+   "superseded_by_url": "https://www.dmac-diving.org/guidance/DMAC15.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-15",
+   "code": "DMAC 15",
+   "title": "Medical equipment to be held at the site of an offshore diving operation",
+   "status": "current",
+   "rev": "6.1",
+   "date": "2026-02",
+   "date_text": "Feb 2026",
+   "url": "https://www.dmac-diving.org/guidance/DMAC15.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-16",
+   "code": "DMAC 16",
+   "title": "Saturation chamber hygiene",
+   "status": "withdrawn",
+   "rev": "",
+   "date": "",
+   "date_text": "",
+   "superseded_by": "DMAC 26",
+   "superseded_by_url": "https://www.dmac-diving.org/guidance/DMAC26.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-17",
+   "code": "DMAC 17",
+   "title": "The training and refresher training of doctors involved in the examination and treatment of professional divers",
+   "status": "withdrawn",
+   "rev": "",
+   "date": "",
+   "date_text": "",
+   "superseded_by": "DMAC 29",
+   "superseded_by_url": "https://www.dmac-diving.org/guidance/DMAC29.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-18",
+   "code": "DMAC 18",
+   "title": "Human Immunodeficiency Virus (HIV) Infection and Acquired Immune Deficiency Syndrome (AIDS) in Commercial Diving",
+   "status": "current",
+   "rev": "1",
+   "date": "2010-12",
+   "date_text": "Dec 2010",
+   "url": "https://www.dmac-diving.org/guidance/DMAC18.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-19",
+   "code": "DMAC 19",
+   "title": "The effects of water vapour on diver physiology",
+   "status": "current",
+   "rev": "1",
+   "date": "1990-11",
+   "date_text": "Nov 1990",
+   "url": "https://www.dmac-diving.org/guidance/DMAC19.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-20",
+   "code": "DMAC 20",
+   "title": "Duration of bell lockouts",
+   "status": "current",
+   "rev": "1",
+   "date": "1997-11",
+   "date_text": "Nov 1997",
+   "url": "https://www.dmac-diving.org/guidance/DMAC20.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-21",
+   "code": "DMAC 21",
+   "title": "Guidance on the duration of saturation exposures and surface intervals between saturations",
+   "status": "current",
+   "rev": "2",
+   "date": "2006-06",
+   "date_text": "Jun 2006",
+   "url": "https://www.dmac-diving.org/guidance/DMAC21.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-22",
+   "code": "DMAC 22",
+   "title": "Proximity to a recompression chamber after surfacing",
+   "status": "current",
+   "rev": "",
+   "date": "1992-10",
+   "date_text": "Oct 1992",
+   "url": "https://www.dmac-diving.org/guidance/DMAC22.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-23",
+   "code": "DMAC 23",
+   "title": "The use of heliox in treating decompression sickness",
+   "status": "current",
+   "rev": "1",
+   "date": "2014-06",
+   "date_text": "Jun 2014",
+   "url": "https://www.dmac-diving.org/guidance/DMAC23.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-24",
+   "code": "DMAC 24",
+   "title": "Differential diagnosis",
+   "status": "withdrawn",
+   "rev": "",
+   "date": "",
+   "date_text": "",
+   "superseded_by": "",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-25",
+   "code": "DMAC 25",
+   "title": "Recommendations for the provision of emergency care for the seriously ill or injured diver when in saturation",
+   "status": "withdrawn",
+   "rev": "",
+   "date": "",
+   "date_text": "",
+   "superseded_by": "DMAC 28",
+   "superseded_by_url": "https://www.dmac-diving.org/guidance/DMAC28.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-26",
+   "code": "DMAC 26",
+   "title": "Saturation diving chamber hygiene",
+   "status": "current",
+   "rev": "2",
+   "date": "2025-06",
+   "date_text": "Jun 2025",
+   "url": "https://www.dmac-diving.org/guidance/DMAC26.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-27",
+   "code": "DMAC 27",
+   "title": "An industry standard for the provision of equipment for emergency medical care in saturation diving systems",
+   "status": "withdrawn",
+   "rev": "",
+   "date": "",
+   "date_text": "",
+   "superseded_by": "DMAC 28",
+   "superseded_by_url": "https://www.dmac-diving.org/guidance/DMAC28.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-28",
+   "code": "DMAC 28",
+   "title": "The provision of emergency medical care for divers in saturation",
+   "status": "current",
+   "rev": "3",
+   "date": "2024-01",
+   "date_text": "Jan 2024",
+   "url": "https://www.dmac-diving.org/guidance/DMAC28.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-29",
+   "code": "DMAC 29",
+   "title": "Approval of diving medicine courses",
+   "status": "current",
+   "rev": "3",
+   "date": "2019-03",
+   "date_text": "Mar 2019",
+   "url": "https://www.dmac-diving.org/guidance/DMAC29.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-30",
+   "code": "DMAC 30",
+   "title": "Management in divers of osteonecrosis at Ficat stage 1",
+   "status": "current",
+   "rev": "",
+   "date": "2007-01",
+   "date_text": "Jan 2007",
+   "url": "https://www.dmac-diving.org/guidance/DMAC30.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "workshop-20110413",
+   "code": "Workshop",
+   "title": "Accelerated emergency decompression from saturation in commercial diving operations (Report of a workshop held in April 2011)",
+   "status": "current",
+   "rev": "",
+   "date": "2013-03",
+   "date_text": "Mar 2013",
+   "url": "https://www.dmac-diving.org/guidance/DMAC-Workshop-20110413.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-32",
+   "code": "DMAC 32",
+   "title": "Guidance on dealing with the body of a deceased diver in saturation",
+   "status": "current",
+   "rev": "",
+   "date": "2014-01",
+   "date_text": "Jan 2014",
+   "url": "https://www.dmac-diving.org/guidance/DMAC32.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "workshop-20141008",
+   "code": "Workshop",
+   "title": "Improving diver safety current medical issues (Report of a workshop held in October 2014)",
+   "status": "current",
+   "rev": "",
+   "date": "2016-03",
+   "date_text": "Mar 2016",
+   "url": "https://www.dmac-diving.org/guidance/DMAC-Workshop-20141008.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-33",
+   "code": "DMAC 33",
+   "title": "Return to diving after COVID-19",
+   "status": "withdrawn",
+   "rev": "",
+   "date": "",
+   "date_text": "",
+   "superseded_by": "",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-34",
+   "code": "DMAC 34",
+   "title": "Guidance for medical examiners of divers conducting face-to-face medicals during the COVID-19 pandemic",
+   "status": "current",
+   "rev": "1",
+   "date": "2021-12",
+   "date_text": "Dec 2021",
+   "url": "https://www.dmac-diving.org/guidance/DMAC34.pdf",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-35",
+   "code": "DMAC 35",
+   "title": "Exposure index for pulmonary oxygen toxicity in surface-oriented diving",
+   "status": "current",
+   "rev": "1",
+   "date": "2025-02",
+   "date_text": "Feb 2025",
+   "url": "https://www.dmac-diving.org/guidance/DMAC35.pdf",
+   "first_seen": "2026-11-04"
+  }
+ ],
+ "statements": [
+  {
+   "id": "dmac-statement-200610.pdf",
+   "title": "DMAC Statement on Commercial Diving and Health",
+   "url": "https://www.dmac-diving.org/guidance/DMAC-Statement-200610.pdf",
+   "detail": "(October 2006)",
+   "date": "2006-10",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-statement-200804.pdf",
+   "title": "DMAC Statement on Health Surveillance of Commercial Divers",
+   "url": "https://www.dmac-diving.org/guidance/DMAC-Statement-200804.pdf",
+   "detail": "(April 2008)",
+   "date": "2008-04",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-statement-200910.pdf",
+   "title": "DMAC Statement on Exercise Testing in Medical Assessment of Commercial Divers",
+   "url": "https://www.dmac-diving.org/guidance/DMAC-Statement-200910.pdf",
+   "detail": "(October 2009)",
+   "date": "2009-10",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-statement-201303.pdf",
+   "title": "DMAC Statement on Requirement for Air Diving to 50 msw in Commercial Diver Training",
+   "url": "https://www.dmac-diving.org/guidance/DMAC-Statement-201303.pdf",
+   "detail": "(March 2013)",
+   "date": "2013-03",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-statement-201903.pdf",
+   "title": "DMAC Statement on Deep Saturation Diving Conducted Using Appropriate Procedures",
+   "url": "https://www.dmac-diving.org/guidance/DMAC-Statement-201903.pdf",
+   "detail": "(updated March 2019)",
+   "date": "2019-03",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-statement-201411.pdf",
+   "title": "DMAC Statement on Education and Training in Diving Medicine",
+   "url": "https://www.dmac-diving.org/guidance/DMAC-Statement-201411.pdf",
+   "detail": "(November 2014)",
+   "date": "2014-11",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "dmac-statement-202110.pdf",
+   "title": "DMAC Statement on COVID-19 Vaccination and the Offshore Energy Diving Community",
+   "url": "https://www.dmac-diving.org/guidance/DMAC-Statement-202110.pdf",
+   "detail": "(October 2021)",
+   "date": "2021-10",
+   "first_seen": "2026-11-04"
+  }
+ ],
+ "articles": [
+  {
+   "id": "article-excursionprocedures.pdf",
+   "title": "Review of excursion procedures used in commercial heliox saturation diving",
+   "url": "https://www.dmac-diving.org/guidance/Article-ExcursionProcedures.pdf",
+   "detail": "Jean-Pierre Imbert, Lyubisa Matity, Jean-Yves Massimelli, Christian Cadieux, Jan Risberg, Philip Bryson Diving and Hyperbaric Medicine Volume 56 No. 1 March 2026",
+   "date": "2026-03",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "article-northseasaturation.pdf",
+   "title": "Evaluation of North Sea saturation procedures through divers monitoring",
+   "url": "https://www.dmac-diving.org/guidance/Article-NorthSeaSaturation.pdf",
+   "detail": "Jean-Pierre Imbert, Axel Barbaud, Sian Stevens, Craig Miller, Hilary Peace, Helene Rossin, Alain Letourneur, Phil Bryson, Bo Damsgaard, Costantino Balestra International Maritime Health, May 2024",
+   "date": "2024-05",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "article-decompressionprocedures.pdf",
+   "title": "Review of saturation decompression procedures used in commercial diving",
+   "url": "https://www.dmac-diving.org/guidance/Article-DecompressionProcedures.pdf",
+   "detail": "Jean-Pierre Imbert, Lyubisa Matity, Jean-Yves Massimelli, Philip Bryson Diving and Hyperbaric Medicine Volume 54 No. 1 March 2024",
+   "date": "2024-03",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "article-accelerateddecompression.pdf",
+   "title": "Review of accelerated decompression from helix saturation in commercial diving emergencies",
+   "url": "https://www.dmac-diving.org/guidance/Article-AcceleratedDecompression.pdf",
+   "detail": "Jean-Pierre Imbert, Jean-Yves Massimelli, Ajit Kulka, Lyubisa Matity, Philip Bryson Diving and Hyperbaric Medicine 52 No. 4 December 2022",
+   "date": "2022-12",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "imbert-accelerateddecompression.pdf",
+   "title": "A review of accelerated decompression from heliox saturation in commercial diving emergencies",
+   "url": "https://www.dmac-diving.org/guidance/Imbert-AcceleratedDecompression.pdf",
+   "detail": "- Imbert et al (December 2022)",
+   "date": "2022-12",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "jip-201602.pdf",
+   "title": "Emergency life support equipment for commercial diving operations - Joint Industry Project",
+   "url": "https://www.dmac-diving.org/guidance/JIP-201602.pdf",
+   "detail": "(January 2016)",
+   "date": "2016-01",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "helix-defib-report.pdf",
+   "title": "Report on tests of Zoll automatic external defibrillator function in hyperbaric heliox conditions - Helix Well Ops",
+   "url": "https://www.dmac-diving.org/guidance/Helix-defib-report.pdf",
+   "detail": "(February 2014)",
+   "date": "2014-02",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "imca-olf-diverhealthsurveillancequestionnaire-entrance.pdf",
+   "title": "Entrance questionnaire",
+   "url": "https://www.dmac-diving.org/guidance/IMCA-OLF-DiverHealthSurveillanceQuestionnaire-Entrance.pdf",
+   "detail": "IMCA/OLF study on long-term health surveillance of professional divers - | Follow-up questionnaire",
+   "date": "",
+   "first_seen": "2026-11-04"
+  }
+ ],
+ "news": [
+  {
+   "id": "3fa399e8a6",
+   "text": "New academic journal articles on commercial diving procedures (March 2026)",
+   "url": "https://www.dmac-diving.org/guidance/",
+   "date": "2026-03",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "c4338fa124",
+   "text": "Latest Guidance",
+   "url": "",
+   "date": "",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "e8a5764992",
+   "text": "DMAC 15 Rev. 6.1 - Medical equipment to be held at the site of a diving operation",
+   "url": "https://www.dmac-diving.org/guidance/DMAC15.pdf",
+   "date": "",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "9873c8c040",
+   "text": "DMAC 1 Rev. 2 - Aide-mémoire for recording and transmission of medical data to shore",
+   "url": "https://www.dmac-diving.org/guidance/DMAC01.pdf",
+   "date": "",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "338140a11b",
+   "text": "DMAC position statements",
+   "url": "https://www.dmac-diving.org/guidance/#position",
+   "date": "",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "8696781fe1",
+   "text": "DMAC Statement on COVID-19 Vaccination and the Offshore Energy Diving Community (October 2021)",
+   "url": "https://www.dmac-diving.org/guidance/DMAC-Statement-202110.pdf",
+   "date": "2021-10",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "fca3014256",
+   "text": "DMAC statement on deep saturation diving under review in light of recent case reports",
+   "url": "",
+   "date": "",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "a084f7b06b",
+   "text": "Third-party initiatives IMCA/OLF questionnaires on long-term health surveillance of professional divers now available for download",
+   "url": "https://www.dmac-diving.org/guidance/#external",
+   "date": "",
+   "first_seen": "2026-11-04"
+  }
+ ],
+ "members": {
+  "members": [
+   {
+    "name": "Dr Pieter-Jan van Ooij",
+    "role": "Chairman",
+    "affiliation": "Royal Dutch Navy",
+    "country": "Netherlands"
+   },
+   {
+    "name": "Dr Jan Risberg",
+    "role": "Vice-Chairman",
+    "affiliation": "NUI (Norwegian Underwater Intervention), Bergen",
+    "country": "Norway"
+   },
+   {
+    "name": "Dr Tony Alleman",
+    "role": "",
+    "affiliation": "Regional One Health",
+    "country": "USA"
+   },
+   {
+    "name": "Lt (DMO) Francesca Bevilacqua",
+    "role": "",
+    "affiliation": "Italian Navy",
+    "country": "Italy"
+   },
+   {
+    "name": "Dr Marc Borgnetta",
+    "role": "",
+    "affiliation": "Institut National de Plongée Professionnelle",
+    "country": "France"
+   },
+   {
+    "name": "Dr Alan Bray",
+    "role": "",
+    "affiliation": "South West Independent Medical Services",
+    "country": "UK"
+   },
+   {
+    "name": "Dr Phil Bryson",
+    "role": "",
+    "affiliation": "TAC Healthcare",
+    "country": "UK"
+   },
+   {
+    "name": "Surg Capt Ole H. Budal",
+    "role": "",
+    "affiliation": "Royal Norwegian Navy Medical Services/TFMC Norway",
+    "country": "Norway"
+   },
+   {
+    "name": "Dr Kevin U-Jyn Chan",
+    "role": "",
+    "affiliation": "Flinders EMA/Femaglobal/FEMA Clinic & Surgery",
+    "country": "Singapore"
+   },
+   {
+    "name": "Dr Olav Sande Eftedal",
+    "role": "",
+    "affiliation": "Equinor",
+    "country": "Norway"
+   },
+   {
+    "name": "Dr Steve Forman",
+    "role": "",
+    "affiliation": "Health & Safety Executive, Merseyside",
+    "country": "UK"
+   },
+   {
+    "name": "Dr John Hjelle",
+    "role": "",
+    "affiliation": "Mediteam, Stavanger",
+    "country": "Norway"
+   },
+   {
+    "name": "Dr Bård Humborstad",
+    "role": "",
+    "affiliation": "Norwegian Petroleum Safety Authority, Stavanger",
+    "country": "Norway"
+   },
+   {
+    "name": "Dr James Wilbert Johnson",
+    "role": "",
+    "affiliation": "Iqarus",
+    "country": "UK"
+   },
+   {
+    "name": "Dr Pasquale Longobardi",
+    "role": "",
+    "affiliation": "Centro Iperbarico",
+    "country": "Italy"
+   },
+   {
+    "name": "Dr Jean Yves Massimelli",
+    "role": "",
+    "affiliation": "Centre Hospitalier Universitaire (CHU) de Nice",
+    "country": "France"
+   },
+   {
+    "name": "Dr Lyubisa (Luba) Matity",
+    "role": "",
+    "affiliation": "Hyperbaric and Tissue Viability Unit, Gozo General Hospital",
+    "country": "Malta"
+   },
+   {
+    "name": "Dr WAJ (Jack) Meintjes",
+    "role": "",
+    "affiliation": "University of Stellenbosch",
+    "country": "South Africa"
+   },
+   {
+    "name": "Dr Ian Millar",
+    "role": "",
+    "affiliation": "",
+    "country": "Australia"
+   },
+   {
+    "name": "Dr Stein Modahl",
+    "role": "",
+    "affiliation": "Inco AS",
+    "country": "Norway"
+   },
+   {
+    "name": "Dr Bruno Alves Parente",
+    "role": "",
+    "affiliation": "Acquamed Hyperbaric Medicine",
+    "country": "Brazil"
+   },
+   {
+    "name": "Surgeon Cdr Simon Phillips",
+    "role": "",
+    "affiliation": "Royal Navy, Alverstoke",
+    "country": "UK"
+   },
+   {
+    "name": "Mr Steve Sheppard",
+    "role": "",
+    "affiliation": "Helix Energy Solutions Group/IMCA",
+    "country": "UK"
+   },
+   {
+    "name": "Surg Cdr Rune Skjåstad",
+    "role": "",
+    "affiliation": "Norwegian Armed Forces Medical Services",
+    "country": "Norway"
+   },
+   {
+    "name": "Dr Ruth Stephenson",
+    "role": "",
+    "affiliation": "Aberdeen Royal Infirmary Hyperbaric Unit",
+    "country": "UK"
+   },
+   {
+    "name": "Dr Maarten van Kets",
+    "role": "",
+    "affiliation": "Integrated Occupational Medicine Ltd",
+    "country": "UK"
+   },
+   {
+    "name": "Dr Roland vanden Eede",
+    "role": "",
+    "affiliation": "Mensura EDPB/Mensura SEPP",
+    "country": "Belgium"
+   },
+   {
+    "name": "Dr Doug Watts",
+    "role": "",
+    "affiliation": "DDRC Healthcare",
+    "country": "UK"
+   },
+   {
+    "name": "Dr Jürg Wendling",
+    "role": "",
+    "affiliation": "",
+    "country": "Switzerland"
+   },
+   {
+    "name": "Dr Thijs Wingelaar",
+    "role": "",
+    "affiliation": "Royal Dutch Navy",
+    "country": "Netherlands"
+   }
+  ],
+  "corresponding": [
+   {
+    "name": "Dr Paolo della Torre",
+    "role": "",
+    "affiliation": "",
+    "country": "Italy"
+   },
+   {
+    "name": "Dr Graham Furnace",
+    "role": "",
+    "affiliation": "Offshore Energies UK",
+    "country": "UK"
+   },
+   {
+    "name": "Dr Tony Lee",
+    "role": "",
+    "affiliation": "Hyperbaric Health Asia",
+    "country": "Malaysia"
+   },
+   {
+    "name": "Dr Walter Maas",
+    "role": "",
+    "affiliation": "",
+    "country": "Netherlands"
+   },
+   {
+    "name": "Professor Nadan M Petri",
+    "role": "",
+    "affiliation": "Croatian Maritime, Undersea and Hyperbaric Medical Society",
+    "country": "Croatia"
+   },
+   {
+    "name": "Dr Euan Thompson",
+    "role": "",
+    "affiliation": "",
+    "country": "Australia"
+   },
+   {
+    "name": "Professor Robert van Hulst",
+    "role": "",
+    "affiliation": "",
+    "country": "Netherlands"
+   },
+   {
+    "name": "Dr Keith van Meter",
+    "role": "",
+    "affiliation": "Undersea & Hyperbaric Medical Society (UHMS)",
+    "country": "USA"
+   },
+   {
+    "name": "Dr Stephen Watt (retired)",
+    "role": "",
+    "affiliation": "",
+    "country": "UK"
+   }
+  ],
+  "secretary": "Ali Macleod, IMCA"
+ },
+ "courses": [
+  {
+   "organiser": "AA Fondazione Mistral",
+   "country": "Italy",
+   "level": "Level 1",
+   "expiry": "31 Dec 2026"
+  },
+  {
+   "organiser": "DDRC Professional Services Ltd",
+   "country": "United Kingdom",
+   "level": "1 and 2D",
+   "expiry": "31 Dec 2026"
+  },
+  {
+   "organiser": "Hyperbaric Medical Centre / Austrian Society fo Underwater and Hyperbaric Medicine (ASUHM)",
+   "country": "Egypt/ Austria",
+   "level": "Level 1",
+   "expiry": "31 Dec 2026"
+  },
+  {
+   "organiser": "Institute of Naval Medicine",
+   "country": "United Kingdom",
+   "level": "Level 1",
+   "expiry": "31 Dec 2026"
+  },
+  {
+   "organiser": "Norwegian Armed Forces",
+   "country": "Norway",
+   "level": "Level 1",
+   "expiry": "31 Dec 2026"
+  },
+  {
+   "organiser": "Republic of Singapore Navy Medical Service/Singapore General Hospital Hyperbaric and Diving Medicine Centre",
+   "country": "Singapore",
+   "level": "Level 1",
+   "expiry": "31 Dec 2026"
+  },
+  {
+   "organiser": "The Royal Netherlands Navy (RNLN)",
+   "country": "Netherlands",
+   "level": "1 and 2D",
+   "expiry": "31 Dec 2026"
+  },
+  {
+   "organiser": "Scuola Superiore Sant'Anna",
+   "country": "Italy",
+   "level": "1 and 2D",
+   "expiry": "31 Dec 2026"
+  },
+  {
+   "organiser": "Stellenbosch University",
+   "country": "South Africa",
+   "level": "Level 1 / Level 2D",
+   "expiry": "31 Dec 2026 / 31 Dec 2026"
+  },
+  {
+   "organiser": "Undersea & Hyperbaric Medical Society",
+   "country": "United States of America",
+   "level": "Level 1 / Level 2D",
+   "expiry": "31 Dec 2026 / 31 Dec 2026"
+  },
+  {
+   "organiser": "United States Army Diving Medicine Programme",
+   "country": "Military/government students only United States of America",
+   "level": "Level 2D",
+   "expiry": "31 Dec 2026"
+  },
+  {
+   "organiser": "VUB (Free University Brussels)",
+   "country": "Belgium",
+   "level": "Level 1",
+   "expiry": "31 Dec 2026"
+  },
+  {
+   "organiser": "",
+   "country": "",
+   "level": "",
+   "expiry": ""
+  }
+ ],
+ "history": "On 11 November 1975 a number of individuals associated with the medical aspects of diving were invited by Malcolm Williams, Chairman of the Medical Committee of the Association of Diving Contractors (AODC), to a meeting in Aberdeen. These included representatives of: the UK Department of Energy, which had the primary UK responsibilities offshore the Norwegian Labour Directorate the UK Royal Navy and the Royal Norwegian Navy the Scottish Home and Health Department (SHHD) and Grampian Health Board the UK Offshore Operators Association (UKOOA) and several member oil companies the Decompression Sickness Panel of the Medical Research Council (MRC) Aberdeen University Underwater Engineering Group (UEG) North Sea Medical Centre (NSMC). It was recognised that there had been a deplorable lack of communication between the various responsible authorities in the North Sea on what was needed to provide an effective medical service for working divers. The inaugural meeting of the Diving Medical Advisory Committee was held a few weeks later under the Chairmanship of Sir John Rawlins. It appointed members and defined its terms of reference for improving the medical support of professional diving. The committee accepted organisational support from the AODC for its meetings and publications, but beyond that the individual members remained fiercely independent. Each delegate is responsible for funding their own time and travel and so DMAC in its opinions owes allegiance to no single organisation. Over subsequent years DMAC has continued under its past Chairmen (Robin Cox, David Elliott, Tor Nome, Alf Brubakk, Stephen Watt) to fulfil its original role, has undertaken additional tasks in the field of diving health and safety and has become recognised internationally as an independent body that is able to offer authoritative advice. Its scope has extended to cover all categories of divers at work and its breadth of membership has extended from the UK and Norway to include diving doctors with similar responsibilities from Sweden, Denmark, Netherlands, France and Italy. Its work may be surmised from the wide variety of its advice. Some pioneering examples include a workshop on the in-water hazards of cold stress, the hazards of exposure to various chemicals at pressure, the prevention of otitis externa, the limitations of the US Navy Diving Manual as relevant to commercial diving, the hyperbaric evacuation of saturation divers and the maximum safe oxygen level for nitrox diving. Close liaison is maintained with the European Diving Technology Committee (EDTC) particularly in relation to implementing the training objectives for diving doctors worldwide. Current publications can be seen under the heading ' Guidance ' to the left. While its published advice is used world-wide perhaps the most important benefit of the committee's work does not feature as a guidance note or as a recommendation. This is that each DMAC meeting is an active international forum at which there is ",
+ "errors": {},
+ "changelog": [],
+ "feed_started": "2026-11-04"
+}
