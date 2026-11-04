@@ -299,7 +299,7 @@ DATA.nodes.forEach(function(n){ n.deg = adj.get(n.id).length; });
 var state = { view: store('kg-view') === 'tree' ? 'tree' : 'graph', sel: null, q: '', terms: [], hidden: new Set(), reader: null };
 
 /* ---------- live feed from dmac-diving.org (dmac.json, refreshed weekly by the repository's workflow) ---------- */
-var FEED_URL = 'https://fabbiologia.github.io/scientific-diving-map/dmac.json';
+var FEED_URL = 'https://fabbiologia.github.io/scientific-diving-map/dmac.json', FEED_XML = 'https://fabbiologia.github.io/scientific-diving-map/dmac.xml';
 var FEED = null, feedLastVisit = store('kg-feed-seen');
 store('kg-feed-seen', new Date().toISOString().slice(0, 10));
 function loadFeed(){
@@ -325,7 +325,7 @@ function latestFeed(n){
   var s = FEED.statements.filter(function(x){ return x.date; }).map(function(x){ return {date: x.date, item: x, label: x.title}; });
   return g.concat(s).sort(function(a, b){ return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; }).slice(0, n);
 }
-function feedChecked(){ return 'Checked ' + esc(fmtDay(FEED.checked)) + (FEED.page_updated ? '; the site says its page was updated ' + esc(FEED.page_updated) : '') + '.'; }
+function feedChecked(){ return 'Checked ' + esc(fmtDay(FEED.checked)) + (FEED.page_updated ? '; the site says its page was updated ' + esc(FEED.page_updated) : '') + '. <a href="' + FEED_XML + '" target="_blank" rel="noopener noreferrer">Atom feed</a> for feed readers; new items also open an issue in the <a href="https://github.com/Fabbiologia/scientific-diving-map/issues?q=label%3Admac-update" target="_blank" rel="noopener noreferrer">repository</a>.'; }
 function feedRailSection(){
   if (!FEED || FEED.error) return '';
   var rows = latestFeed(4).map(function(r){ return feedRow(r.date, feedLink(r.item, r.label)); }).join('');

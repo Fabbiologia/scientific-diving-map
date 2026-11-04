@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DMAC guidance and statements (via the Scientific Diving Governance Map)</title>
+  <link href="https://fabbiologia.github.io/scientific-diving-map/dmac.xml" rel="self"/>
+  <link href="https://www.dmac-diving.org/guidance/"/>
+  <id>tag:fabbiologia.github.io,2026:dmac</id>
+  <updated>2026-11-04T09:10:18Z</updated>
+  <author><name>scientific-diving-map feed</name></author>
+  <entry>
+    <title>Entrance questionnaire</title>
+    <link href="https://www.dmac-diving.org/guidance/IMCA-OLF-DiverHealthSurveillanceQuestionnaire-Entrance.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:imca-olf-diverhealthsurveillancequestionnaire-entrance.pdf</id>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>Article, IMCA/OLF study on long-term health surveillance of professional divers - | Follow-up questionnaire</summary>
+  </entry>
+  <entry>
+    <title>Latest Guidance</title>
+    <link href="https://www.dmac-diving.org/guidance/"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:c4338fa124</id>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>News</summary>
+  </entry>
+  <entry>
+    <title>DMAC 15 Rev. 6.1 - Medical equipment to be held at the site of a diving operation</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC15.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:e8a5764992</id>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>News</summary>
+  </entry>
+  <entry>
+    <title>DMAC 1 Rev. 2 - Aide-mémoire for recording and transmission of medical data to shore</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC01.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:9873c8c040</id>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>News</summary>
+  </entry>
+  <entry>
+    <title>DMAC position statements</title>
+    <link href="https://www.dmac-diving.org/guidance/#position"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:338140a11b</id>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>News</summary>
+  </entry>
+  <entry>
+    <title>DMAC statement on deep saturation diving under review in light of recent case reports</title>
+    <link href="https://www.dmac-diving.org/guidance/"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:fca3014256</id>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>News</summary>
+  </entry>
+  <entry>
+    <title>Third-party initiatives IMCA/OLF questionnaires on long-term health surveillance of professional divers now available for download</title>
+    <link href="https://www.dmac-diving.org/guidance/#external"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:a084f7b06b</id>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>News</summary>
+  </entry>
+  <entry>
+    <title>Review of excursion procedures used in commercial heliox saturation diving</title>
+    <link href="https://www.dmac-diving.org/guidance/Article-ExcursionProcedures.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:article-excursionprocedures.pdf</id>
+    <updated>2026-03-01T00:00:00Z</updated>
+    <summary>Article, Jean-Pierre Imbert, Lyubisa Matity, Jean-Yves Massimelli, Christian Cadieux, Jan Risberg, Philip Bryson Diving and Hyperbaric Medicine Volume 56 No. 1 March 2026</summary>
+  </entry>
+  <entry>
+    <title>New academic journal articles on commercial diving procedures (March 2026)</title>
+    <link href="https://www.dmac-diving.org/guidance/"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:3fa399e8a6</id>
+    <updated>2026-03-01T00:00:00Z</updated>
+    <summary>News</summary>
+  </entry>
+  <entry>
+    <title>DMAC 15: Medical equipment to be held at the site of an offshore diving operation</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC15.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-15</id>
+    <updated>2026-02-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 6.1, Feb 2026</summary>
+  </entry>
+  <entry>
+    <title>DMAC 01: Aide-mémoire for recording and transmission of medical data to shore</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC01.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-01</id>
+    <updated>2025-07-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 2, Jul 2025</summary>
+  </entry>
+  <entry>
+    <title>DMAC 26: Saturation diving chamber hygiene</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC26.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-26</id>
+    <updated>2025-06-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 2, Jun 2025</summary>
+  </entry>
+  <entry>
+    <title>DMAC 35: Exposure index for pulmonary oxygen toxicity in surface-oriented diving</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC35.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-35</id>
+    <updated>2025-02-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 1, Feb 2025</summary>
+  </entry>
+  <entry>
+    <title>Evaluation of North Sea saturation procedures through divers monitoring</title>
+    <link href="https://www.dmac-diving.org/guidance/Article-NorthSeaSaturation.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:article-northseasaturation.pdf</id>
+    <updated>2024-05-01T00:00:00Z</updated>
+    <summary>Article, Jean-Pierre Imbert, Axel Barbaud, Sian Stevens, Craig Miller, Hilary Peace, Helene Rossin, Alain Letourneur, Phil Bryson, Bo Damsgaard, Costantino Balestra International Maritime Health, May 2024</summary>
+  </entry>
+  <entry>
+    <title>Review of saturation decompression procedures used in commercial diving</title>
+    <link href="https://www.dmac-diving.org/guidance/Article-DecompressionProcedures.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:article-decompressionprocedures.pdf</id>
+    <updated>2024-03-01T00:00:00Z</updated>
+    <summary>Article, Jean-Pierre Imbert, Lyubisa Matity, Jean-Yves Massimelli, Philip Bryson Diving and Hyperbaric Medicine Volume 54 No. 1 March 2024</summary>
+  </entry>
+  <entry>
+    <title>DMAC 28: The provision of emergency medical care for divers in saturation</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC28.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-28</id>
+    <updated>2024-01-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 3, Jan 2024</summary>
+  </entry>
+  <entry>
+    <title>DMAC 13: Fitness to return to diving after decompression illness</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC13.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-13</id>
+    <updated>2022-12-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 3, Dec 2022</summary>
+  </entry>
+  <entry>
+    <title>Review of accelerated decompression from helix saturation in commercial diving emergencies</title>
+    <link href="https://www.dmac-diving.org/guidance/Article-AcceleratedDecompression.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:article-accelerateddecompression.pdf</id>
+    <updated>2022-12-01T00:00:00Z</updated>
+    <summary>Article, Jean-Pierre Imbert, Jean-Yves Massimelli, Ajit Kulka, Lyubisa Matity, Philip Bryson Diving and Hyperbaric Medicine 52 No. 4 December 2022</summary>
+  </entry>
+  <entry>
+    <title>A review of accelerated decompression from heliox saturation in commercial diving emergencies</title>
+    <link href="https://www.dmac-diving.org/guidance/Imbert-AcceleratedDecompression.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:imbert-accelerateddecompression.pdf</id>
+    <updated>2022-12-01T00:00:00Z</updated>
+    <summary>Article, - Imbert et al (December 2022)</summary>
+  </entry>
+  <entry>
+    <title>DMAC 34: Guidance for medical examiners of divers conducting face-to-face medicals during the COVID-19 pandemic</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC34.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-34</id>
+    <updated>2021-12-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 1, Dec 2021</summary>
+  </entry>
+  <entry>
+    <title>DMAC Statement on COVID-19 Vaccination and the Offshore Energy Diving Community</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC-Statement-202110.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-statement-202110.pdf</id>
+    <updated>2021-10-01T00:00:00Z</updated>
+    <summary>Statement, (October 2021)</summary>
+  </entry>
+  <entry>
+    <title>DMAC Statement on COVID-19 Vaccination and the Offshore Energy Diving Community (October 2021)</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC-Statement-202110.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:8696781fe1</id>
+    <updated>2021-10-01T00:00:00Z</updated>
+    <summary>News</summary>
+  </entry>
+  <entry>
+    <title>DMAC 12: Safe diving distance from seismic surveying operations</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC12.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-12</id>
+    <updated>2020-06-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 2.1, Jun 2020</summary>
+  </entry>
+  <entry>
+    <title>DMAC 29: Approval of diving medicine courses</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC29.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-29</id>
+    <updated>2019-03-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 3, Mar 2019</summary>
+  </entry>
+  <entry>
+    <title>DMAC Statement on Deep Saturation Diving Conducted Using Appropriate Procedures</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC-Statement-201903.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-statement-201903.pdf</id>
+    <updated>2019-03-01T00:00:00Z</updated>
+    <summary>Statement, (updated March 2019)</summary>
+  </entry>
+  <entry>
+    <title>DMAC 07: Flying after diving: Recommendations</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC07.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-07</id>
+    <updated>2017-11-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 2, Nov 2017</summary>
+  </entry>
+  <entry>
+    <title>DMAC 04: Oxygen content in open circuit bail-out bottles for heliox saturation diving</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC04.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-04</id>
+    <updated>2016-05-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 2, May 2016</summary>
+  </entry>
+  <entry>
+    <title>Workshop: Improving diver safety current medical issues (Report of a workshop held in October 2014)</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC-Workshop-20141008.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:workshop-20141008</id>
+    <updated>2016-03-01T00:00:00Z</updated>
+    <summary>Guidance, Mar 2016</summary>
+  </entry>
+  <entry>
+    <title>Emergency life support equipment for commercial diving operations - Joint Industry Project</title>
+    <link href="https://www.dmac-diving.org/guidance/JIP-201602.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:jip-201602.pdf</id>
+    <updated>2016-01-01T00:00:00Z</updated>
+    <summary>Article, (January 2016)</summary>
+  </entry>
+  <entry>
+    <title>DMAC Statement on Education and Training in Diving Medicine</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC-Statement-201411.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-statement-201411.pdf</id>
+    <updated>2014-11-01T00:00:00Z</updated>
+    <summary>Statement, (November 2014)</summary>
+  </entry>
+  <entry>
+    <title>DMAC 23: The use of heliox in treating decompression sickness</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC23.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-23</id>
+    <updated>2014-06-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 1, Jun 2014</summary>
+  </entry>
+  <entry>
+    <title>Report on tests of Zoll automatic external defibrillator function in hyperbaric heliox conditions - Helix Well Ops</title>
+    <link href="https://www.dmac-diving.org/guidance/Helix-defib-report.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:helix-defib-report.pdf</id>
+    <updated>2014-02-01T00:00:00Z</updated>
+    <summary>Article, (February 2014)</summary>
+  </entry>
+  <entry>
+    <title>DMAC 32: Guidance on dealing with the body of a deceased diver in saturation</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC32.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-32</id>
+    <updated>2014-01-01T00:00:00Z</updated>
+    <summary>Guidance, Jan 2014</summary>
+  </entry>
+  <entry>
+    <title>Workshop: Accelerated emergency decompression from saturation in commercial diving operations (Report of a workshop held in April 2011)</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC-Workshop-20110413.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:workshop-20110413</id>
+    <updated>2013-03-01T00:00:00Z</updated>
+    <summary>Guidance, Mar 2013</summary>
+  </entry>
+  <entry>
+    <title>DMAC Statement on Requirement for Air Diving to 50 msw in Commercial Diver Training</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC-Statement-201303.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-statement-201303.pdf</id>
+    <updated>2013-03-01T00:00:00Z</updated>
+    <summary>Statement, (March 2013)</summary>
+  </entry>
+  <entry>
+    <title>DMAC 18: Human Immunodeficiency Virus (HIV) Infection and Acquired Immune Deficiency Syndrome (AIDS) in Commercial Diving</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC18.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-18</id>
+    <updated>2010-12-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 1, Dec 2010</summary>
+  </entry>
+  <entry>
+    <title>DMAC 06: The effects of sonar transmission on commercial diving activities</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC06.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-06</id>
+    <updated>2010-06-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 1, Jun 2010</summary>
+  </entry>
+  <entry>
+    <title>DMAC Statement on Exercise Testing in Medical Assessment of Commercial Divers</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC-Statement-200910.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-statement-200910.pdf</id>
+    <updated>2009-10-01T00:00:00Z</updated>
+    <summary>Statement, (October 2009)</summary>
+  </entry>
+  <entry>
+    <title>DMAC Statement on Health Surveillance of Commercial Divers</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC-Statement-200804.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-statement-200804.pdf</id>
+    <updated>2008-04-01T00:00:00Z</updated>
+    <summary>Statement, (April 2008)</summary>
+  </entry>
+  <entry>
+    <title>DMAC 30: Management in divers of osteonecrosis at Ficat stage 1</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC30.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-30</id>
+    <updated>2007-01-01T00:00:00Z</updated>
+    <summary>Guidance, Jan 2007</summary>
+  </entry>
+  <entry>
+    <title>DMAC Statement on Commercial Diving and Health</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC-Statement-200610.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-statement-200610.pdf</id>
+    <updated>2006-10-01T00:00:00Z</updated>
+    <summary>Statement, (October 2006)</summary>
+  </entry>
+  <entry>
+    <title>DMAC 21: Guidance on the duration of saturation exposures and surface intervals between saturations</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC21.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-21</id>
+    <updated>2006-06-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 2, Jun 2006</summary>
+  </entry>
+  <entry>
+    <title>DMAC 11: Provision of first aid and the training of divers, supervisors and members of dive teams in first aid</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC11.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-11</id>
+    <updated>2001-11-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 1, Nov 2001</summary>
+  </entry>
+  <entry>
+    <title>DMAC 20: Duration of bell lockouts</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC20.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-20</id>
+    <updated>1997-11-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 1, Nov 1997</summary>
+  </entry>
+  <entry>
+    <title>DMAC 22: Proximity to a recompression chamber after surfacing</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC22.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-22</id>
+    <updated>1992-10-01T00:00:00Z</updated>
+    <summary>Guidance, Oct 1992</summary>
+  </entry>
+  <entry>
+    <title>DMAC 19: The effects of water vapour on diver physiology</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC19.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-19</id>
+    <updated>1990-11-01T00:00:00Z</updated>
+    <summary>Guidance, Rev. 1, Nov 1990</summary>
+  </entry>
+  <entry>
+    <title>DMAC 08: Thermal stress in relation to diving (Report of a workshop held in March 1981)</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC08.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-08</id>
+    <updated>1981-03-01T00:00:00Z</updated>
+    <summary>Guidance, Mar 1981</summary>
+  </entry>
+  <entry>
+    <title>DMAC 03: Accidents with high-pressure water jets</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC03.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-03</id>
+    <updated>1981-01-01T00:00:00Z</updated>
+    <summary>Guidance, Jan 1981</summary>
+  </entry>
+  <entry>
+    <title>DMAC 05: Recommendation on minimum level of O 2 in helium supplied offshore</title>
+    <link href="https://www.dmac-diving.org/guidance/DMAC05.pdf"/>
+    <id>tag:fabbiologia.github.io,2026:dmac:dmac-05</id>
+    <updated>1981-01-01T00:00:00Z</updated>
+    <summary>Guidance, Jan 1981</summary>
+  </entry>
+</feed>

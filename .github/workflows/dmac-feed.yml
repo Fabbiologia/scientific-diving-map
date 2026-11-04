@@ -1,5 +1,7 @@
-# Weekly refresh of dmac.json from www.dmac-diving.org. A commit here redeploys GitHub Pages,
-# and the map page reads dmac.json at load, so new DMAC guidance appears without a rebuild.
+# Weekly refresh of dmac.json and dmac.xml from www.dmac-diving.org. A commit here redeploys
+# GitHub Pages, and the map page reads dmac.json at load, so new DMAC guidance appears without a
+# rebuild. When the run finds something added, revised or withdrawn, it opens an issue with a
+# digest ready to forward and @mentions the owner, which GitHub sends to the account's email.
 # Run it by hand from the Actions tab (workflow_dispatch) to check sooner.
 name: DMAC feed
 
@@ -10,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   refresh:
@@ -20,14 +23,32 @@ jobs:
       - name: Scrape dmac-diving.org
         run: python3 feed/scrape_dmac.py dmac.json
 
+      - name: Record what changed today
+        id: changes
+        run: |
+          echo "summary=$(python3 feed/scrape_dmac.py --summary dmac.json)" >> "$GITHUB_OUTPUT"
+          python3 feed/scrape_dmac.py --digest dmac.json > digest.md
+
       - name: Commit the refreshed feed
+        env:
+          SUMMARY: ${{ steps.changes.outputs.summary }}
         run: |
           git config user.name "dmac-feed"
           git config user.email "dmac-feed@users.noreply.github.com"
-          git add dmac.json
+          git add dmac.json dmac.xml
           if git diff --cached --quiet; then
             echo "nothing to commit"
             exit 0
           fi
-          git commit -m "DMAC feed: $(python3 feed/scrape_dmac.py --summary dmac.json)"
+          git commit -m "DMAC feed: $SUMMARY"
           git push
+
+      - name: Open an issue when DMAC published or revised something
+        if: steps.changes.outputs.summary != 'no change'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SUMMARY: ${{ steps.changes.outputs.summary }}
+        run: |
+          { echo "@${{ github.repository_owner }} new material on dmac-diving.org."; echo; cat digest.md; } > issue.md
+          gh label create dmac-update --color D2510A --description "New or revised DMAC guidance found by the weekly feed" 2>/dev/null || true
+          gh issue create --title "DMAC update: $SUMMARY" --body-file issue.md --label dmac-update
