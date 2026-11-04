@@ -2,13 +2,19 @@
 # GitHub Pages, and the map page reads dmac.json at load, so new DMAC guidance appears without a
 # rebuild. When the run finds something added, revised or withdrawn, it opens an issue with a
 # digest ready to forward and @mentions the owner, which GitHub sends to the account's email.
-# Run it by hand from the Actions tab (workflow_dispatch) to check sooner.
+# Run it by hand from the Actions tab (workflow_dispatch) to check sooner; tick "test_issue"
+# there to open a sample issue and check that the email arrives.
 name: DMAC feed
 
 on:
   schedule:
     - cron: '17 6 * * 1'   # Mondays at 06:17 UTC
   workflow_dispatch:
+    inputs:
+      test_issue:
+        description: "Open a test issue with a sample digest, to check that the alert email arrives"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -25,9 +31,17 @@ jobs:
 
       - name: Record what changed today
         id: changes
+        env:
+          TEST: ${{ inputs.test_issue }}
         run: |
           echo "summary=$(python3 feed/scrape_dmac.py --summary dmac.json)" >> "$GITHUB_OUTPUT"
-          python3 feed/scrape_dmac.py --digest dmac.json > digest.md
+          if [ "$TEST" = "true" ]; then
+            echo "alert=test of the alert channel" >> "$GITHUB_OUTPUT"
+            python3 feed/scrape_dmac.py --digest --sample dmac.json > digest.md
+          else
+            echo "alert=$(python3 feed/scrape_dmac.py --summary dmac.json)" >> "$GITHUB_OUTPUT"
+            python3 feed/scrape_dmac.py --digest dmac.json > digest.md
+          fi
 
       - name: Commit the refreshed feed
         env:
@@ -44,11 +58,11 @@ jobs:
           git push
 
       - name: Open an issue when DMAC published or revised something
-        if: steps.changes.outputs.summary != 'no change'
+        if: steps.changes.outputs.summary != 'no change' || inputs.test_issue == true
         env:
           GH_TOKEN: ${{ github.token }}
-          SUMMARY: ${{ steps.changes.outputs.summary }}
+          ALERT: ${{ steps.changes.outputs.alert }}
         run: |
           { echo "@${{ github.repository_owner }} new material on dmac-diving.org."; echo; cat digest.md; } > issue.md
           gh label create dmac-update --color D2510A --description "New or revised DMAC guidance found by the weekly feed" 2>/dev/null || true
-          gh issue create --title "DMAC update: $SUMMARY" --body-file issue.md --label dmac-update
+          gh issue create --title "DMAC update: $ALERT" --body-file issue.md --label dmac-update

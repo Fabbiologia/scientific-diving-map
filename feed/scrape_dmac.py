@@ -276,16 +276,27 @@ def find_item(data, change):
     return next((i for i in data.get(key, []) if i['id'] == change['id']), None)
 
 
-def digest(path, site_url):
-    """Markdown digest of today's changes, written for forwarding to colleagues."""
+def digest(path, site_url, sample=False):
+    """Markdown digest of today's changes, written for forwarding to colleagues.
+    With sample=True it fakes three changes from the latest items, to test the alert channel."""
     data = json.load(open(path, encoding='utf-8'))
     today = todays_changes(data)
+    when = dt.date.fromisoformat(TODAY).strftime('%-d %B %Y')
+    lines = []
+    if sample:
+        g = sorted([i for i in data['guidance'] if i['status'] == 'current' and i.get('date')],
+                   key=lambda i: i['date'], reverse=True)[:2]
+        s = sorted([i for i in data['statements'] if i.get('date')], key=lambda i: i['date'], reverse=True)[:1]
+        today = [{'kind': 'revised', 'section': 'guidance', 'id': g[0]['id'], 'what': g[0]['code']},
+                 {'kind': 'added', 'section': 'guidance', 'id': g[1]['id'], 'what': g[1]['code']},
+                 {'kind': 'added', 'section': 'statement', 'id': s[0]['id'], 'what': s[0]['title']}]
+        lines = ['**This is a test of the alert channel.** Nothing changed at DMAC; the three items below are the '
+                 'latest ones on its list, shown the way a real alert would show new material.', '']
     if not today:
         print('no change')
         return
-    when = dt.date.fromisoformat(TODAY).strftime('%-d %B %Y')
-    lines = [f'DMAC, the Diving Medical Advisory Committee, published or revised the following on '
-             f'[www.dmac-diving.org]({BASE}); the feed saw it on {when}.', '']
+    lines += [f'DMAC, the Diving Medical Advisory Committee, published or revised the following on '
+              f'[www.dmac-diving.org]({BASE}); the feed saw it on {when}.', '']
     for c in today:
         item = find_item(data, c) or {}
         label = item.get('code') or item.get('title') or item.get('text') or c['what']
@@ -342,7 +353,7 @@ if __name__ == '__main__':
     if args[:1] == ['--summary']:
         summary(args[1])
     elif args[:1] == ['--digest']:
-        digest(args[1], SITE_URL)
+        digest(args[-1], SITE_URL, sample='--sample' in args)
     elif len(args) == 1:
         refresh(args[0])
         xml_path, n = write_atom(args[0], json.load(open(args[0], encoding='utf-8')), SITE_URL)
